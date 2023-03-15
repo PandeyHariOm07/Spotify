@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sono&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Sono', sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 117px;
+    padding: 0 14px;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family : 'Sono', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+ }
+ .icons i{
+    cursor: pointer;
+ }
+ .songItem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: azure;
+    color: #000;
+    border-radius: 12px;
+
+ }
+ .songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+ }
+ .timestamp{
+    margin: 0 23px;
+    display: flex;
+    /* margin-right: 12px; */
+ }
+ .pp{
+    margin-left: 10px;
+    cursor: pointer;
+ }
+ .Heading{
+    margin-bottom: 34px;
+ }
+ #masterPlay{
+    padding: 12px;
+ }
